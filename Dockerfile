@@ -6,4 +6,3 @@ COPY aurora-admin/dist/ /usr/local/aurora-vue/admin/
 CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 80
 EXPOSE 443
-#测试
